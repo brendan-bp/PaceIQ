@@ -25,7 +25,7 @@ _Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_9_26_12_4_start:
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
 [ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 11 8 ]
-        %tmp.4 = "My Label";
+        %tmp.4 = "PaceIQ";
         symbol [ label ? 11 8 13 ];
         putv self :label %tmp.4;
 _Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_9_26_12_4_stop:

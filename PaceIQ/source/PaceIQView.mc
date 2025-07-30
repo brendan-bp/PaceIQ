@@ -8,7 +8,7 @@ class PaceIQView extends WatchUi.SimpleDataField {
     // Set the label of the data field here.
     function initialize() {
         SimpleDataField.initialize();
-        label = "My Label";
+        label = "PaceIQ";
     }
 
     function compute(info as Activity.Info) as Numeric or Duration or String or Null {
