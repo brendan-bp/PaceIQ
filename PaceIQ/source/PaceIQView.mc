@@ -33,18 +33,17 @@ class PaceIQView extends WatchUi.SimpleDataField {
             if ((5 < RH) && (RH < 99)) { // Check humidity
                 wetBulbTemperature =
                 T * Math.atan(0.151977 * Math.sqrt(RH + 8.313659))
-                + 0.00391838 * (RH ^ 2/3) * Math.atan(0.023101 * RH)
+                + 0.00391838 * (RH ^ 3/2) * Math.atan(0.023101 * RH)
                 - Math.atan(RH - 1.676331)
                 + Math.atan(T + RH)
                 - 4.686035;
             }
         }
 
-
         // Find pace in min/km from speed in m/s
         var pace = ((1/Activity.getActivityInfo().currentSpeed)*(1000/60));
 
-        // Pace adjustment, using the charts from
+        // Pace adjustment, derived from
         // https://journals.lww.com/acsm-msse/fulltext/2007/03000/impact_of_weather_on_marathon_running_performance.12.aspx
         var adjustedPace = -1;
         if (wetBulbTemperature < 10) {
@@ -60,13 +59,11 @@ class PaceIQView extends WatchUi.SimpleDataField {
             adjustedPace = pace*1.12;
         }
 
-        // Format the pace into min:seconds
-        // var min = Math.floor(adjustedPace);
-        // var seconds = Math.round((adjustedPace-Math.floor(adjustedPace))*60);
 
         if (pace != null) {
-            return Math.floor(adjustedPace).format("%.f").toString() + ":"
-            + Math.round((adjustedPace-Math.floor(adjustedPace))*60).format("%02.f").toString();
+            // Format the pace into min:seconds
+            return Math.floor(adjustedPace).format("%.f") + ":"
+            + Math.round((adjustedPace-Math.floor(adjustedPace))*60).format("%02.f");
         } else {
             // Speed cannot be negative so returning -1 ensures we can tell that there is an error
             return -1;

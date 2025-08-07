@@ -20,22 +20,22 @@
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="32" parent="globals/PaceIQView" pc="268435675" symbol="compute"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="33" parent="globals/PaceIQView" pc="268435697" symbol="compute"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="34" parent="globals/PaceIQView" pc="268435719" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="45" parent="globals/PaceIQView" pc="268435864" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="49" parent="globals/PaceIQView" pc="268435899" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="50" parent="globals/PaceIQView" pc="268435906" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="51" parent="globals/PaceIQView" pc="268435917" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="53" parent="globals/PaceIQView" pc="268435930" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="54" parent="globals/PaceIQView" pc="268435941" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="56" parent="globals/PaceIQView" pc="268435954" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="57" parent="globals/PaceIQView" pc="268435965" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="59" parent="globals/PaceIQView" pc="268435978" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="60" parent="globals/PaceIQView" pc="268435989" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="67" parent="globals/PaceIQView" pc="268436002" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="68" parent="globals/PaceIQView" pc="268436009" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="72" parent="globals/PaceIQView" pc="268436124" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="11" parent="globals/PaceIQView" pc="268436131" symbol="initialize"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="12" parent="globals/PaceIQView" pc="268436133" symbol="initialize"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="13" parent="globals/PaceIQView" pc="268436151" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="44" parent="globals/PaceIQView" pc="268435864" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="48" parent="globals/PaceIQView" pc="268435899" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="49" parent="globals/PaceIQView" pc="268435906" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="50" parent="globals/PaceIQView" pc="268435917" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="52" parent="globals/PaceIQView" pc="268435930" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="53" parent="globals/PaceIQView" pc="268435941" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="55" parent="globals/PaceIQView" pc="268435954" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="56" parent="globals/PaceIQView" pc="268435965" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="58" parent="globals/PaceIQView" pc="268435978" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="59" parent="globals/PaceIQView" pc="268435989" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="63" parent="globals/PaceIQView" pc="268436002" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="65" parent="globals/PaceIQView" pc="268436009" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="69" parent="globals/PaceIQView" pc="268436106" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="11" parent="globals/PaceIQView" pc="268436113" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="12" parent="globals/PaceIQView" pc="268436115" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="13" parent="globals/PaceIQView" pc="268436133" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -67,12 +67,12 @@
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268436130" name="info" stackId="1" startPc="268435618"/>
-        <entry endPc="268436129" name="T" stackId="2" startPc="268435622"/>
-        <entry endPc="268436129" name="RH" stackId="3" startPc="268435622"/>
-        <entry endPc="268436129" name="wetBulbTemperature" stackId="4" startPc="268435622"/>
-        <entry endPc="268436129" name="pace" stackId="5" startPc="268435622"/>
-        <entry endPc="268436129" name="adjustedPace" stackId="6" startPc="268435622"/>
+        <entry arg="true" endPc="268436112" name="info" stackId="1" startPc="268435618"/>
+        <entry endPc="268436111" name="T" stackId="2" startPc="268435622"/>
+        <entry endPc="268436111" name="RH" stackId="3" startPc="268435622"/>
+        <entry endPc="268436111" name="wetBulbTemperature" stackId="4" startPc="268435622"/>
+        <entry endPc="268436111" name="pace" stackId="5" startPc="268435622"/>
+        <entry endPc="268436111" name="adjustedPace" stackId="6" startPc="268435622"/>
     </localVars>
     <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3077-00"/>
     <annotations>
@@ -120,11 +120,11 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436130" name="compute" parent="PaceIQView" startPc="268435618">
+        <functionEntry accessMode="public" endPc="268436112" name="compute" parent="PaceIQView" startPc="268435618">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436164" name="initialize" parent="PaceIQView" startPc="268436131">
+        <functionEntry accessMode="public" endPc="268436146" name="initialize" parent="PaceIQView" startPc="268436113">
             <documentation/>
         </functionEntry>
     </functions>
