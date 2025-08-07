@@ -15,19 +15,17 @@ class PaceIQView extends WatchUi.SimpleDataField {
 
     function compute(info as Activity.Info) as Numeric or Duration or String or Null {
         // See Activity.Info in the documentation for available information.
-        // Temperature
-        var T = Weather.getCurrentConditions().temperature;
-        // var T = 30;
-
-        // Humidity
-        var RH = Weather.getCurrentConditions().relativeHumidity;
-        // var RH = 30;
-
         // Wind Speed
         // var windSpeed = Weather.getCurrentConditions().windSpeed;
 
         // Altitude
         // var Altitude = Position.getInfo().altitude;
+
+        // Temperature
+        var T = Weather.getCurrentConditions().temperature;
+
+        // Humidity
+        var RH = Weather.getCurrentConditions().relativeHumidity;
 
         // Calculate Wet-Bulb Temperature
         var wetBulbTemperature = 0;
@@ -42,18 +40,37 @@ class PaceIQView extends WatchUi.SimpleDataField {
             }
         }
 
-        // We will get the pace of the athlete via their current speed in m/s
-        // return Activity.getActivityInfo().currentSpeed;
 
-        // Find pace in min/km
-        // var pace = ((1/Activity.getActivityInfo().currentSpeed)*(1000/60));
+        // Find pace in min/km from speed in m/s
+        var pace = ((1/Activity.getActivityInfo().currentSpeed)*(1000/60));
 
-        return wetBulbTemperature;
-        // if (pace != null) {
-        //     return pace;
-        // } else {
-        //     return wetBulbTemperature;
-        // }
+        // Pace adjustment, using the charts from
+        // https://journals.lww.com/acsm-msse/fulltext/2007/03000/impact_of_weather_on_marathon_running_performance.12.aspx
+        var adjustedPace = -1;
+        if (wetBulbTemperature < 10) {
+            adjustedPace = pace*1.03;
+        }
+        else if (wetBulbTemperature < 15) {
+            adjustedPace = pace*1.06;
+        }
+        else if (wetBulbTemperature < 20) {
+            adjustedPace = pace*1.09;
+        }
+        else if (wetBulbTemperature < 25) {
+            adjustedPace = pace*1.12;
+        }
+
+        // Format the pace into min:seconds
+        // var min = Math.floor(adjustedPace);
+        // var seconds = Math.round((adjustedPace-Math.floor(adjustedPace))*60);
+
+        if (pace != null) {
+            return Math.floor(adjustedPace).format("%.f").toString() + ":"
+            + Math.round((adjustedPace-Math.floor(adjustedPace))*60).format("%02.f").toString();
+        } else {
+            // Speed cannot be negative so returning -1 ensures we can tell that there is an error
+            return -1;
+        }
 
 
     }

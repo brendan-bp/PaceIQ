@@ -36,92 +36,92 @@ _Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_11_26_14_4_stop:
     }
     [ @file = "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc"; @line = 16; @symbol_functiondef = [compute,16,13,20]; @symbol_param<0> = [info,16,21,25]; @symbol_param<0>_type<0> = [Activity,16,29,37]; @symbol_param<0>_type<1> = [Info,16,38,42]; @symbol_return<0> = [Numeric,16,47,54]; @symbol_return<1> = [Duration,16,58,66]; @symbol_return<2> = [String,16,70,76]; ]
     function compute(info as Activity.Info) as Numeric or Duration or String or Null {
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_59_4_start:
-[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 19 8 ]
-        [ "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_59_4_start" "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_59_4_stop" ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 25 8 ]
+        [ "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_start" "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_stop" ]
         %T.1 = local;
-        symbol [ T %T.1 19 12 13 ];
-        symbol [ Weather %tmp.2 19 16 23 ];
+        symbol [ T %T.1 25 12 13 ];
+        symbol [ Weather %tmp.2 25 16 23 ];
         %tmp.2 = getv ? :Weather;
-        symbol [ getCurrentConditions %tmp.3 19 24 44 ];
+        symbol [ getCurrentConditions %tmp.3 25 24 44 ];
         %tmp.3 = getv function %tmp.2 :getCurrentConditions;
         %tmp.4 = invoke %tmp.2 %tmp.3();
-        symbol [ temperature %tmp.5 19 47 58 ];
+        symbol [ temperature %tmp.5 25 47 58 ];
         %tmp.5 = getv %tmp.4 :temperature;
         lputv %T.1 %tmp.5;
-        symbol [ T %T.1 19 12 13 ];
-[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 23 8 ]
-        [ "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_59_4_start" "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_59_4_stop" ]
+        symbol [ T %T.1 25 12 13 ];
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 28 8 ]
+        [ "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_start" "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_stop" ]
         %RH.2 = local;
-        symbol [ RH %RH.2 23 12 14 ];
-        symbol [ Weather %tmp.7 23 17 24 ];
+        symbol [ RH %RH.2 28 12 14 ];
+        symbol [ Weather %tmp.7 28 17 24 ];
         %tmp.7 = getv ? :Weather;
-        symbol [ getCurrentConditions %tmp.8 23 25 45 ];
+        symbol [ getCurrentConditions %tmp.8 28 25 45 ];
         %tmp.8 = getv function %tmp.7 :getCurrentConditions;
         %tmp.9 = invoke %tmp.7 %tmp.8();
-        symbol [ relativeHumidity %tmp.10 23 48 64 ];
+        symbol [ relativeHumidity %tmp.10 28 48 64 ];
         %tmp.10 = getv %tmp.9 :relativeHumidity;
         lputv %RH.2 %tmp.10;
-        symbol [ RH %RH.2 23 12 14 ];
-[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 33 8 ]
-        [ "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_59_4_start" "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_59_4_stop" ]
+        symbol [ RH %RH.2 28 12 14 ];
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 31 8 ]
+        [ "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_start" "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_stop" ]
         %wetBulbTemperature.3 = local;
-        symbol [ wetBulbTemperature %wetBulbTemperature.3 33 12 30 ];
+        symbol [ wetBulbTemperature %wetBulbTemperature.3 31 12 30 ];
         %tmp.11 = 0;
         lputv %wetBulbTemperature.3 %tmp.11;
-        symbol [ wetBulbTemperature %wetBulbTemperature.3 33 12 30 ];
-[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 34 8 ]
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_8_43_8_if_stmt:
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_12_34_32_begin:
+        symbol [ wetBulbTemperature %wetBulbTemperature.3 31 12 30 ];
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 32 8 ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_8_41_8_if_stmt:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_12_32_32_begin:
         %tmp.12 = -20;
         %tmp.13 = lgetv %T.1;
-        symbol [ T %tmp.13 34 19 20 ];
+        symbol [ T %tmp.13 32 19 20 ];
         %tmp.14 = lt %tmp.12 %tmp.13;
-        bf %tmp.14 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_8_43_8_if_end;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_25_34_32_true:
+        bf %tmp.14 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_8_41_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_25_32_32_true:
         %tmp.15 = lgetv %T.1;
-        symbol [ T %tmp.15 34 26 27 ];
+        symbol [ T %tmp.15 32 26 27 ];
         %tmp.16 = 50;
         %tmp.17 = lt %tmp.15 %tmp.16;
         push %tmp.17;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_25_34_32_end:
-        %tmp.18 = phi [%tmp.14 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_12_34_32_begin] [%tmp.17 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_25_34_32_true] [%tmp.18 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_25_34_32_end];
-        bf %tmp.18 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_8_43_8_if_end;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_8_43_8_if_true:
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_35_43_8_start:
-[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 35 12 ]
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_12_42_12_if_stmt:
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_16_35_36_begin:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_25_32_32_end:
+        %tmp.18 = phi [%tmp.14 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_12_32_32_begin] [%tmp.17 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_25_32_32_true] [%tmp.18 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_25_32_32_end];
+        bf %tmp.18 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_8_41_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_8_41_8_if_true:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_35_41_8_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 33 12 ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_12_40_12_if_stmt:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_16_33_36_begin:
         %tmp.19 = 5;
         %tmp.20 = lgetv %RH.2;
-        symbol [ RH %tmp.20 35 21 23 ];
+        symbol [ RH %tmp.20 33 21 23 ];
         %tmp.21 = lt %tmp.19 %tmp.20;
-        bf %tmp.21 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_12_42_12_if_end;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_28_35_36_true:
+        bf %tmp.21 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_12_40_12_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_28_33_36_true:
         %tmp.22 = lgetv %RH.2;
-        symbol [ RH %tmp.22 35 29 31 ];
+        symbol [ RH %tmp.22 33 29 31 ];
         %tmp.23 = 99;
         %tmp.24 = lt %tmp.22 %tmp.23;
         push %tmp.24;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_28_35_36_end:
-        %tmp.25 = phi [%tmp.21 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_16_35_36_begin] [%tmp.24 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_28_35_36_true] [%tmp.25 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_28_35_36_end];
-        bf %tmp.25 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_12_42_12_if_end;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_12_42_12_if_true:
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_39_42_12_start:
-[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 36 16 ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_28_33_36_end:
+        %tmp.25 = phi [%tmp.21 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_16_33_36_begin] [%tmp.24 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_28_33_36_true] [%tmp.25 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_28_33_36_end];
+        bf %tmp.25 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_12_40_12_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_12_40_12_if_true:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_39_40_12_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 34 16 ]
         %tmp.26 = lgetv %T.1;
-        symbol [ T %tmp.26 37 16 17 ];
-        symbol [ Math %tmp.27 37 20 24 ];
+        symbol [ T %tmp.26 35 16 17 ];
+        symbol [ Math %tmp.27 35 20 24 ];
         %tmp.27 = getm $.Toybox.Math;
-        symbol [ atan %tmp.28 37 25 29 ];
+        symbol [ atan %tmp.28 35 25 29 ];
         %tmp.28 = getv function %tmp.27 :atan;
         %tmp.29 = 0.151977;
-        symbol [ Math %tmp.30 37 41 45 ];
+        symbol [ Math %tmp.30 35 41 45 ];
         %tmp.30 = getm $.Toybox.Math;
-        symbol [ sqrt %tmp.31 37 46 50 ];
+        symbol [ sqrt %tmp.31 35 46 50 ];
         %tmp.31 = getv function %tmp.30 :sqrt;
         %tmp.32 = lgetv %RH.2;
-        symbol [ RH %tmp.32 37 51 53 ];
+        symbol [ RH %tmp.32 35 51 53 ];
         %tmp.33 = 8.313659;
         %tmp.34 = add %tmp.32 %tmp.33;
         %tmp.35 = invoke %tmp.30 %tmp.31(%tmp.34);
@@ -130,59 +130,221 @@ _Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_39_42_12_star
         %tmp.38 = mul %tmp.26 %tmp.37;
         %tmp.39 = 0.00391838;
         %tmp.40 = lgetv %RH.2;
-        symbol [ RH %tmp.40 38 32 34 ];
+        symbol [ RH %tmp.40 36 32 34 ];
         %tmp.41 = 2;
         %tmp.42 = 3;
         %tmp.43 = div %tmp.41 %tmp.42;
         %tmp.44 = xor %tmp.40 %tmp.43;
         %tmp.45 = mul %tmp.39 %tmp.44;
-        symbol [ Math %tmp.46 38 44 48 ];
+        symbol [ Math %tmp.46 36 44 48 ];
         %tmp.46 = getm $.Toybox.Math;
-        symbol [ atan %tmp.47 38 49 53 ];
+        symbol [ atan %tmp.47 36 49 53 ];
         %tmp.47 = getv function %tmp.46 :atan;
         %tmp.48 = 0.023101;
         %tmp.49 = lgetv %RH.2;
-        symbol [ RH %tmp.49 38 65 67 ];
+        symbol [ RH %tmp.49 36 65 67 ];
         %tmp.50 = mul %tmp.48 %tmp.49;
         %tmp.51 = invoke %tmp.46 %tmp.47(%tmp.50);
         %tmp.52 = mul %tmp.45 %tmp.51;
         %tmp.53 = add %tmp.38 %tmp.52;
-        symbol [ Math %tmp.54 39 18 22 ];
+        symbol [ Math %tmp.54 37 18 22 ];
         %tmp.54 = getm $.Toybox.Math;
-        symbol [ atan %tmp.55 39 23 27 ];
+        symbol [ atan %tmp.55 37 23 27 ];
         %tmp.55 = getv function %tmp.54 :atan;
         %tmp.56 = lgetv %RH.2;
-        symbol [ RH %tmp.56 39 28 30 ];
+        symbol [ RH %tmp.56 37 28 30 ];
         %tmp.57 = 1.676331;
         %tmp.58 = sub %tmp.56 %tmp.57;
         %tmp.59 = invoke %tmp.54 %tmp.55(%tmp.58);
         %tmp.60 = sub %tmp.53 %tmp.59;
-        symbol [ Math %tmp.61 40 18 22 ];
+        symbol [ Math %tmp.61 38 18 22 ];
         %tmp.61 = getm $.Toybox.Math;
-        symbol [ atan %tmp.62 40 23 27 ];
+        symbol [ atan %tmp.62 38 23 27 ];
         %tmp.62 = getv function %tmp.61 :atan;
         %tmp.63 = lgetv %T.1;
-        symbol [ T %tmp.63 40 28 29 ];
+        symbol [ T %tmp.63 38 28 29 ];
         %tmp.64 = lgetv %RH.2;
-        symbol [ RH %tmp.64 40 32 34 ];
+        symbol [ RH %tmp.64 38 32 34 ];
         %tmp.65 = add %tmp.63 %tmp.64;
         %tmp.66 = invoke %tmp.61 %tmp.62(%tmp.65);
         %tmp.67 = add %tmp.60 %tmp.66;
         %tmp.68 = 4.686035;
         %tmp.69 = sub %tmp.67 %tmp.68;
         lputv %wetBulbTemperature.3 %tmp.69;
-        symbol [ wetBulbTemperature %wetBulbTemperature.3 36 16 34 ];
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_39_42_12_stop:
-        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_12_42_12_if_end;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_35_12_42_12_if_end:
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_35_43_8_stop:
-        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_8_43_8_if_end;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_34_8_43_8_if_end:
-[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 51 8 ]
-        %tmp.70 = lgetv %wetBulbTemperature.3;
-        symbol [ wetBulbTemperature %tmp.70 51 15 33 ];
-        ret %tmp.70;
-_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_59_4_stop:
+        symbol [ wetBulbTemperature %wetBulbTemperature.3 34 16 34 ];
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_39_40_12_stop:
+        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_12_40_12_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_33_12_40_12_if_end:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_35_41_8_stop:
+        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_8_41_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_32_8_41_8_if_end:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 45 8 ]
+        [ "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_start" "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_stop" ]
+        %pace.4 = local;
+        symbol [ pace %pace.4 45 12 16 ];
+        %tmp.70 = 1;
+        symbol [ Activity %tmp.71 45 23 31 ];
+        %tmp.71 = getm $.Toybox.Activity;
+        symbol [ getActivityInfo %tmp.72 45 32 47 ];
+        %tmp.72 = getv function %tmp.71 :getActivityInfo;
+        %tmp.73 = invoke %tmp.71 %tmp.72();
+        symbol [ currentSpeed %tmp.74 45 50 62 ];
+        %tmp.74 = getv %tmp.73 :currentSpeed;
+        %tmp.75 = div %tmp.70 %tmp.74;
+        %tmp.76 = 1000;
+        %tmp.77 = 60;
+        %tmp.78 = div %tmp.76 %tmp.77;
+        %tmp.79 = mul %tmp.75 %tmp.78;
+        lputv %pace.4 %tmp.79;
+        symbol [ pace %pace.4 45 12 16 ];
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 49 8 ]
+        [ "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_start" "_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_stop" ]
+        %adjustedPace.5 = local;
+        symbol [ adjustedPace %adjustedPace.5 49 12 24 ];
+        %tmp.80 = -1;
+        lputv %adjustedPace.5 %tmp.80;
+        symbol [ adjustedPace %adjustedPace.5 49 12 24 ];
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 50 8 ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_50_8_61_8_if_stmt:
+        %tmp.81 = lgetv %wetBulbTemperature.3;
+        symbol [ wetBulbTemperature %tmp.81 50 12 30 ];
+        %tmp.82 = 10;
+        %tmp.83 = lt %tmp.81 %tmp.82;
+        bf %tmp.83 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_50_8_61_8_if_false;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_50_8_61_8_if_true:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_50_37_52_8_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 51 12 ]
+        %tmp.84 = lgetv %pace.4;
+        symbol [ pace %tmp.84 51 27 31 ];
+        %tmp.85 = 1.03;
+        %tmp.86 = mul %tmp.84 %tmp.85;
+        lputv %adjustedPace.5 %tmp.86;
+        symbol [ adjustedPace %adjustedPace.5 51 12 24 ];
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_50_37_52_8_stop:
+        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_50_8_61_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_50_8_61_8_if_false:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 53 13 ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_53_13_61_8_if_stmt:
+        %tmp.87 = lgetv %wetBulbTemperature.3;
+        symbol [ wetBulbTemperature %tmp.87 53 17 35 ];
+        %tmp.88 = 15;
+        %tmp.89 = lt %tmp.87 %tmp.88;
+        bf %tmp.89 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_53_13_61_8_if_false;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_53_13_61_8_if_true:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_53_42_55_8_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 54 12 ]
+        %tmp.90 = lgetv %pace.4;
+        symbol [ pace %tmp.90 54 27 31 ];
+        %tmp.91 = 1.06;
+        %tmp.92 = mul %tmp.90 %tmp.91;
+        lputv %adjustedPace.5 %tmp.92;
+        symbol [ adjustedPace %adjustedPace.5 54 12 24 ];
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_53_42_55_8_stop:
+        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_53_13_61_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_53_13_61_8_if_false:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 56 13 ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_56_13_61_8_if_stmt:
+        %tmp.93 = lgetv %wetBulbTemperature.3;
+        symbol [ wetBulbTemperature %tmp.93 56 17 35 ];
+        %tmp.94 = 20;
+        %tmp.95 = lt %tmp.93 %tmp.94;
+        bf %tmp.95 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_56_13_61_8_if_false;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_56_13_61_8_if_true:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_56_42_58_8_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 57 12 ]
+        %tmp.96 = lgetv %pace.4;
+        symbol [ pace %tmp.96 57 27 31 ];
+        %tmp.97 = 1.09;
+        %tmp.98 = mul %tmp.96 %tmp.97;
+        lputv %adjustedPace.5 %tmp.98;
+        symbol [ adjustedPace %adjustedPace.5 57 12 24 ];
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_56_42_58_8_stop:
+        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_56_13_61_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_56_13_61_8_if_false:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 59 13 ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_59_13_61_8_if_stmt:
+        %tmp.99 = lgetv %wetBulbTemperature.3;
+        symbol [ wetBulbTemperature %tmp.99 59 17 35 ];
+        %tmp.100 = 25;
+        %tmp.101 = lt %tmp.99 %tmp.100;
+        bf %tmp.101 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_59_13_61_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_59_13_61_8_if_true:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_59_42_61_8_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 60 12 ]
+        %tmp.102 = lgetv %pace.4;
+        symbol [ pace %tmp.102 60 27 31 ];
+        %tmp.103 = 1.12;
+        %tmp.104 = mul %tmp.102 %tmp.103;
+        lputv %adjustedPace.5 %tmp.104;
+        symbol [ adjustedPace %adjustedPace.5 60 12 24 ];
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_59_42_61_8_stop:
+        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_59_13_61_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_59_13_61_8_if_end:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_56_13_61_8_if_end:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_53_13_61_8_if_end:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_50_8_61_8_if_end:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 67 8 ]
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_67_8_73_8_if_stmt:
+        %tmp.105 = lgetv %pace.4;
+        symbol [ pace %tmp.105 67 12 16 ];
+        %tmp.106 = null;
+        %tmp.107 = ne %tmp.105 %tmp.106;
+        bf %tmp.107 @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_67_8_73_8_if_else_false;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_67_8_73_8_if_true:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_67_26_70_8_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 68 12 ]
+        symbol [ Math %tmp.108 68 19 23 ];
+        %tmp.108 = getm $.Toybox.Math;
+        symbol [ floor %tmp.109 68 24 29 ];
+        %tmp.109 = getv function %tmp.108 :floor;
+        %tmp.110 = lgetv %adjustedPace.5;
+        symbol [ adjustedPace %tmp.110 68 30 42 ];
+        %tmp.111 = invoke %tmp.108 %tmp.109(%tmp.110);
+        symbol [ format %tmp.112 68 44 50 ];
+        %tmp.112 = getv function %tmp.111 :format;
+        %tmp.113 = "%.f";
+        %tmp.114 = invoke %tmp.111 %tmp.112(%tmp.113);
+        symbol [ toString %tmp.115 68 58 66 ];
+        %tmp.115 = getv function %tmp.114 :toString;
+        %tmp.116 = invoke %tmp.114 %tmp.115();
+        %tmp.117 = ":";
+        %tmp.118 = add %tmp.116 %tmp.117;
+        symbol [ Math %tmp.119 69 14 18 ];
+        %tmp.119 = getm $.Toybox.Math;
+        symbol [ round %tmp.120 69 19 24 ];
+        %tmp.120 = getv function %tmp.119 :round;
+        %tmp.121 = lgetv %adjustedPace.5;
+        symbol [ adjustedPace %tmp.121 69 26 38 ];
+        symbol [ Math %tmp.122 69 39 43 ];
+        %tmp.122 = getm $.Toybox.Math;
+        symbol [ floor %tmp.123 69 44 49 ];
+        %tmp.123 = getv function %tmp.122 :floor;
+        %tmp.124 = lgetv %adjustedPace.5;
+        symbol [ adjustedPace %tmp.124 69 50 62 ];
+        %tmp.125 = invoke %tmp.122 %tmp.123(%tmp.124);
+        %tmp.126 = sub %tmp.121 %tmp.125;
+        %tmp.127 = 60;
+        %tmp.128 = mul %tmp.126 %tmp.127;
+        %tmp.129 = invoke %tmp.119 %tmp.120(%tmp.128);
+        symbol [ format %tmp.130 69 69 75 ];
+        %tmp.130 = getv function %tmp.129 :format;
+        %tmp.131 = "%02.f";
+        %tmp.132 = invoke %tmp.129 %tmp.130(%tmp.131);
+        symbol [ toString %tmp.133 69 85 93 ];
+        %tmp.133 = getv function %tmp.132 :toString;
+        %tmp.134 = invoke %tmp.132 %tmp.133();
+        %tmp.135 = add %tmp.118 %tmp.134;
+        ret %tmp.135;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_67_26_70_8_stop:
+        goto @_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_67_8_73_8_if_end;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_67_8_73_8_if_else_false:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_70_15_73_8_start:
+[ "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" 72 12 ]
+        %tmp.136 = -1;
+        ret %tmp.136;
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_70_15_73_8_stop:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_67_8_73_8_if_end:
+_Users_bpospischil_Developer_PaceIQ_PaceIQ_source_PaceIQView_mc_16_85_76_4_stop:
     }
 }
 [ @file = "/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc"; @line = 1; ]
