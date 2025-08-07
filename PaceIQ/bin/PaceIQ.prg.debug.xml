@@ -6,18 +6,24 @@
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/bin/gen/006-B3077-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="3" lineNum="5" parent="globals/PaceIQApp" pc="268435510" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="4" lineNum="6" parent="globals/PaceIQView" pc="268435529" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="4" lineNum="8" parent="globals/PaceIQView" pc="268435529" symbol="&lt;init&gt;"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="5" lineNum="12" parent="globals/PaceIQApp" pc="268435548" symbol="onStart"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="6" lineNum="20" parent="globals/PaceIQApp" pc="268435551" symbol="getInitialView"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="6" lineNum="21" parent="globals/PaceIQApp" pc="268435553" symbol="getInitialView"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="7" lineNum="7" parent="globals/PaceIQApp" pc="268435594" symbol="initialize"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="7" lineNum="8" parent="globals/PaceIQApp" pc="268435596" symbol="initialize"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="8" lineNum="16" parent="globals/PaceIQApp" pc="268435615" symbol="onStop"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="14" parent="globals/PaceIQView" pc="268435618" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="27" parent="globals/PaceIQView" pc="268435620" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="9" parent="globals/PaceIQView" pc="268435626" symbol="initialize"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="10" parent="globals/PaceIQView" pc="268435628" symbol="initialize"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="11" parent="globals/PaceIQView" pc="268435646" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="16" parent="globals/PaceIQView" pc="268435618" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="19" parent="globals/PaceIQView" pc="268435622" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="23" parent="globals/PaceIQView" pc="268435645" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="33" parent="globals/PaceIQView" pc="268435668" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="35" parent="globals/PaceIQView" pc="268435675" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="36" parent="globals/PaceIQView" pc="268435697" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="37" parent="globals/PaceIQView" pc="268435719" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="52" parent="globals/PaceIQView" pc="268435864" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="11" parent="globals/PaceIQView" pc="268435867" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="12" parent="globals/PaceIQView" pc="268435869" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="13" parent="globals/PaceIQView" pc="268435887" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -43,12 +49,16 @@
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435625" name="info" stackId="1" startPc="268435618"/>
+        <entry arg="true" endPc="268435866" name="info" stackId="1" startPc="268435618"/>
+        <entry endPc="268435866" name="T" stackId="2" startPc="268435622"/>
+        <entry endPc="268435866" name="RH" stackId="3" startPc="268435622"/>
+        <entry endPc="268435866" name="wetBulbTemperature" stackId="4" startPc="268435622"/>
     </localVars>
     <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3077-00"/>
     <annotations>
@@ -96,11 +106,11 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435625" name="compute" parent="PaceIQView" startPc="268435618">
+        <functionEntry accessMode="public" endPc="268435866" name="compute" parent="PaceIQView" startPc="268435618">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435659" name="initialize" parent="PaceIQView" startPc="268435626">
+        <functionEntry accessMode="public" endPc="268435900" name="initialize" parent="PaceIQView" startPc="268435867">
             <documentation/>
         </functionEntry>
     </functions>
