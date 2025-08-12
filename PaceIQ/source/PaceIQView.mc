@@ -59,15 +59,30 @@ class PaceIQView extends WatchUi.SimpleDataField {
             adjustedPace = pace*1.12;
         }
 
-
+        var output = "";
         if (pace != null) {
             // Format the pace into min:seconds
-            return Math.floor(adjustedPace).format("%.f") + ":"
+            // return Math.floor(adjustedPace).format("%.f") + ":"
+            // + Math.round((adjustedPace-Math.floor(adjustedPac    e))*60).format("%02.f");
+            output = Math.floor(adjustedPace).format("%.f") + ":"
             + Math.round((adjustedPace-Math.floor(adjustedPace))*60).format("%02.f");
         } else {
             // Speed cannot be negative so returning -1 ensures we can tell that there is an error
-            return -1;
+            output =  -1;
         }
+
+        if (wetBulbTemperature > 25) {
+            output = output + "!";
+            if (wetBulbTemperature > 27) {
+                output = output + "!";
+                if (wetBulbTemperature > 29) {
+                    output = output + "!";
+                }
+            }
+        }
+        System.println("hi");
+        return output;
+        // return wetBulbTemperature;
 
 
     }
