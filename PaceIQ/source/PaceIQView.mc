@@ -46,45 +46,46 @@ class PaceIQView extends WatchUi.SimpleDataField {
         // Pace adjustment, derived from
         // https://journals.lww.com/acsm-msse/fulltext/2007/03000/impact_of_weather_on_marathon_running_performance.12.aspx
         var adjustedPace = -1;
-        if (wetBulbTemperature < 10) {
+        if (wetBulbTemperature > 10) {
             adjustedPace = pace*1.03;
         }
-        else if (wetBulbTemperature < 15) {
+        else if (wetBulbTemperature > 15) {
             adjustedPace = pace*1.06;
         }
-        else if (wetBulbTemperature < 20) {
+        else if (wetBulbTemperature > 20) {
             adjustedPace = pace*1.09;
         }
-        else if (wetBulbTemperature < 25) {
+        else if (wetBulbTemperature > 25) {
             adjustedPace = pace*1.12;
         }
+        else {
+            adjustedPace = pace;
+        }
 
+
+        // Output & formatting
         var output = "";
         if (pace != null) {
             // Format the pace into min:seconds
-            // return Math.floor(adjustedPace).format("%.f") + ":"
-            // + Math.round((adjustedPace-Math.floor(adjustedPac    e))*60).format("%02.f");
             output = Math.floor(adjustedPace).format("%.f") + ":"
             + Math.round((adjustedPace-Math.floor(adjustedPace))*60).format("%02.f");
         } else {
             // Speed cannot be negative so returning -1 ensures we can tell that there is an error
-            output =  -1;
+            output =  "error";
         }
 
         if (wetBulbTemperature > 25) {
             output = output + "!";
-            if (wetBulbTemperature > 27) {
-                output = output + "!";
-                if (wetBulbTemperature > 29) {
-                    output = output + "!";
-                }
-            }
         }
-        System.println("hi");
+        if (wetBulbTemperature > 27) {
+            output = output + "!";
+        }
+        if (wetBulbTemperature > 29) {
+            output = output + "!";
+        }
+
+
         return output;
-        // return wetBulbTemperature;
-
-
     }
 
 }
