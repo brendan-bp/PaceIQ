@@ -33,30 +33,36 @@ class PaceIQView extends WatchUi.SimpleDataField {
             if ((5 < RH) && (RH < 99)) { // Check humidity
                 wetBulbTemperature =
                 T * Math.atan(0.151977 * Math.sqrt(RH + 8.313659))
-                + 0.00391838 * (RH ^ 3/2) * Math.atan(0.023101 * RH)
+                + 0.00391838 * (Math.pow(RH, 3/2)) * Math.atan(0.023101 * RH)
                 - Math.atan(RH - 1.676331)
                 + Math.atan(T + RH)
                 - 4.686035;
+
             }
         }
 
         // Find pace in min/km from speed in m/s
-        var pace = ((1/Activity.getActivityInfo().currentSpeed)*(1000/60));
+        var pace;
+        // if (Activity.getActivityInfo().currentSpeed != null) {
+        //     pace = ((1/Activity.getActivityInfo().currentSpeed)*(1000/60));
+        // }
+        // else {
+        //     pace = 0;
+        // }
+        // Delete later lol
+        pace = 3;
 
-        // Pace adjustment, derived from
+        // Wet Bulb Temperature (Temperature & Humidity) adjustment, derived from
         // https://journals.lww.com/acsm-msse/fulltext/2007/03000/impact_of_weather_on_marathon_running_performance.12.aspx
-        var adjustedPace = -1;
-        if (wetBulbTemperature > 10) {
-            adjustedPace = pace*1.03;
-        }
-        else if (wetBulbTemperature > 15) {
-            adjustedPace = pace*1.06;
-        }
-        else if (wetBulbTemperature > 20) {
-            adjustedPace = pace*1.09;
-        }
-        else if (wetBulbTemperature > 25) {
-            adjustedPace = pace*1.12;
+        var adjustedPace = 0.0;
+        // Only convert if within the experimental bounds of the study (which considered a Wet Bulb Temp of 5 as the baseline)
+        // If above this, our conversion will not apply, but warnings will start to show to remind the athlete to reconsider
+        // training in potentially dangerous conditions
+        if ((wetBulbTemperature > 5) && (wetBulbTemperature <= 25)) {
+            adjustedPace = ((((wetBulbTemperature - 5)/20)* // Calculate the scaling of the cubic based on Wet Bulb Temperature
+            (2.0219*Math.pow(pace,3)-17.947*Math.pow(pace, 2)+56.825*pace-60.908) // Calculate the cubic based on the athlete's pace
+            +100)/100) // Convert from percentage increase to conversion factor
+            *pace; // Multiply pace by conversion factor
         }
         else {
             adjustedPace = pace;
@@ -74,18 +80,22 @@ class PaceIQView extends WatchUi.SimpleDataField {
             output =  "error";
         }
 
-        if (wetBulbTemperature > 25) {
+
+        // Add the warnings for dangerously high wet-bulb temperatures
+        // Algorithim prioritises reducing memory operations at the cost of more boolean operations
+        if ((wetBulbTemperature > 25) && (wetBulbTemperature <= 27)) {
             output = output + "!";
         }
-        if (wetBulbTemperature > 27) {
-            output = output + "!";
+        else if ((wetBulbTemperature > 27) && (wetBulbTemperature <= 29)) {
+            output = output + "!!";
         }
-        if (wetBulbTemperature > 29) {
-            output = output + "!";
+        else if (wetBulbTemperature > 29) {
+            output = output + "!!!";
         }
 
 
         return output;
+        // return adjustedPace;
     }
 
 }
