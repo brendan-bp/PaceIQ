@@ -13,32 +13,33 @@
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="7" lineNum="7" parent="globals/PaceIQApp" pc="268435594" symbol="initialize"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="7" lineNum="8" parent="globals/PaceIQApp" pc="268435596" symbol="initialize"/>
         <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="8" lineNum="16" parent="globals/PaceIQApp" pc="268435615" symbol="onStop"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="16" parent="globals/PaceIQView" pc="268435618" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="25" parent="globals/PaceIQView" pc="268435622" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="28" parent="globals/PaceIQView" pc="268435645" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="31" parent="globals/PaceIQView" pc="268435668" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="32" parent="globals/PaceIQView" pc="268435675" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="33" parent="globals/PaceIQView" pc="268435697" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="34" parent="globals/PaceIQView" pc="268435719" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="53" parent="globals/PaceIQView" pc="268435878" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="57" parent="globals/PaceIQView" pc="268435885" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="61" parent="globals/PaceIQView" pc="268435892" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="62" parent="globals/PaceIQView" pc="268435914" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="68" parent="globals/PaceIQView" pc="268436021" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="73" parent="globals/PaceIQView" pc="268436025" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="74" parent="globals/PaceIQView" pc="268436032" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="76" parent="globals/PaceIQView" pc="268436039" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="80" parent="globals/PaceIQView" pc="268436137" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="86" parent="globals/PaceIQView" pc="268436144" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="87" parent="globals/PaceIQView" pc="268436166" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="89" parent="globals/PaceIQView" pc="268436179" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="90" parent="globals/PaceIQView" pc="268436201" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="92" parent="globals/PaceIQView" pc="268436214" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="93" parent="globals/PaceIQView" pc="268436225" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="97" parent="globals/PaceIQView" pc="268436238" symbol="compute"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="11" parent="globals/PaceIQView" pc="268436241" symbol="initialize"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="12" parent="globals/PaceIQView" pc="268436243" symbol="initialize"/>
-        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="13" parent="globals/PaceIQView" pc="268436261" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="15" parent="globals/PaceIQView" pc="268435618" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="18" parent="globals/PaceIQView" pc="268435622" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="21" parent="globals/PaceIQView" pc="268435645" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="26" parent="globals/PaceIQView" pc="268435668" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="27" parent="globals/PaceIQView" pc="268435675" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="28" parent="globals/PaceIQView" pc="268435697" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="29" parent="globals/PaceIQView" pc="268435719" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="41" parent="globals/PaceIQView" pc="268435878" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="42" parent="globals/PaceIQView" pc="268435904" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="45" parent="globals/PaceIQView" pc="268435942" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="55" parent="globals/PaceIQView" pc="268435949" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="56" parent="globals/PaceIQView" pc="268435971" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="65" parent="globals/PaceIQView" pc="268436078" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="69" parent="globals/PaceIQView" pc="268436082" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="70" parent="globals/PaceIQView" pc="268436089" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="72" parent="globals/PaceIQView" pc="268436096" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="76" parent="globals/PaceIQView" pc="268436194" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="86" parent="globals/PaceIQView" pc="268436201" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="87" parent="globals/PaceIQView" pc="268436223" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="89" parent="globals/PaceIQView" pc="268436236" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="90" parent="globals/PaceIQView" pc="268436258" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="92" parent="globals/PaceIQView" pc="268436271" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="93" parent="globals/PaceIQView" pc="268436282" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="97" parent="globals/PaceIQView" pc="268436295" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="10" parent="globals/PaceIQView" pc="268436298" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="11" parent="globals/PaceIQView" pc="268436300" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="12" parent="globals/PaceIQView" pc="268436318" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -70,13 +71,13 @@
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268436240" name="info" stackId="1" startPc="268435618"/>
-        <entry endPc="268436240" name="T" stackId="2" startPc="268435622"/>
-        <entry endPc="268436240" name="RH" stackId="3" startPc="268435622"/>
-        <entry endPc="268436240" name="wetBulbTemperature" stackId="4" startPc="268435622"/>
-        <entry endPc="268436240" name="pace" stackId="5" startPc="268435622"/>
-        <entry endPc="268436240" name="adjustedPace" stackId="6" startPc="268435622"/>
-        <entry endPc="268436240" name="output" stackId="7" startPc="268435622"/>
+        <entry arg="true" endPc="268436297" name="info" stackId="1" startPc="268435618"/>
+        <entry endPc="268436297" name="T" stackId="2" startPc="268435622"/>
+        <entry endPc="268436297" name="RH" stackId="3" startPc="268435622"/>
+        <entry endPc="268436297" name="wetBulbTemperature" stackId="4" startPc="268435622"/>
+        <entry endPc="268436297" name="pace" stackId="5" startPc="268435622"/>
+        <entry endPc="268436297" name="adjustedPace" stackId="6" startPc="268435622"/>
+        <entry endPc="268436297" name="output" stackId="7" startPc="268435622"/>
     </localVars>
     <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3077-00"/>
     <annotations>
@@ -124,11 +125,11 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436240" name="compute" parent="PaceIQView" startPc="268435618">
+        <functionEntry accessMode="public" endPc="268436297" name="compute" parent="PaceIQView" startPc="268435618">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436274" name="initialize" parent="PaceIQView" startPc="268436241">
+        <functionEntry accessMode="public" endPc="268436331" name="initialize" parent="PaceIQView" startPc="268436298">
             <documentation/>
         </functionEntry>
     </functions>
