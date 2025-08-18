@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/bin/gen/006-B3542-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="3" lineNum="5" parent="globals/PaceIQApp" pc="268435510" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="4" lineNum="8" parent="globals/PaceIQView" pc="268435529" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="5" lineNum="12" parent="globals/PaceIQApp" pc="268435548" symbol="onStart"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="6" lineNum="20" parent="globals/PaceIQApp" pc="268435551" symbol="getInitialView"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="6" lineNum="21" parent="globals/PaceIQApp" pc="268435553" symbol="getInitialView"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="7" lineNum="7" parent="globals/PaceIQApp" pc="268435594" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="7" lineNum="8" parent="globals/PaceIQApp" pc="268435596" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQApp.mc" id="8" lineNum="16" parent="globals/PaceIQApp" pc="268435615" symbol="onStop"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="15" parent="globals/PaceIQView" pc="268435618" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="18" parent="globals/PaceIQView" pc="268435622" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="21" parent="globals/PaceIQView" pc="268435645" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="26" parent="globals/PaceIQView" pc="268435668" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="27" parent="globals/PaceIQView" pc="268435675" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="28" parent="globals/PaceIQView" pc="268435697" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="29" parent="globals/PaceIQView" pc="268435719" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="41" parent="globals/PaceIQView" pc="268435878" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="42" parent="globals/PaceIQView" pc="268435904" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="45" parent="globals/PaceIQView" pc="268435942" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="55" parent="globals/PaceIQView" pc="268435949" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="56" parent="globals/PaceIQView" pc="268435971" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="65" parent="globals/PaceIQView" pc="268436078" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="69" parent="globals/PaceIQView" pc="268436082" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="70" parent="globals/PaceIQView" pc="268436089" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="72" parent="globals/PaceIQView" pc="268436096" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="76" parent="globals/PaceIQView" pc="268436194" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="86" parent="globals/PaceIQView" pc="268436201" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="87" parent="globals/PaceIQView" pc="268436223" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="89" parent="globals/PaceIQView" pc="268436236" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="90" parent="globals/PaceIQView" pc="268436258" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="92" parent="globals/PaceIQView" pc="268436271" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="93" parent="globals/PaceIQView" pc="268436282" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="9" lineNum="97" parent="globals/PaceIQView" pc="268436295" symbol="compute"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="10" parent="globals/PaceIQView" pc="268436298" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="11" parent="globals/PaceIQView" pc="268436300" symbol="initialize"/>
+        <entry filename="/Users/bpospischil/Developer/PaceIQ/PaceIQ/source/PaceIQView.mc" id="10" lineNum="12" parent="globals/PaceIQView" pc="268436318" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="6" object="true" symbol="PaceIQView"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="8" symbol="AppName"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="5" object="true" symbol="PaceIQApp"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="7" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436297" name="info" stackId="1" startPc="268435618"/>
+        <entry endPc="268436297" name="T" stackId="2" startPc="268435622"/>
+        <entry endPc="268436297" name="RH" stackId="3" startPc="268435622"/>
+        <entry endPc="268436297" name="wetBulbTemperature" stackId="4" startPc="268435622"/>
+        <entry endPc="268436297" name="pace" stackId="5" startPc="268435622"/>
+        <entry endPc="268436297" name="adjustedPace" stackId="6" startPc="268435622"/>
+        <entry endPc="268436297" name="output" stackId="7" startPc="268435622"/>
+    </localVars>
+    <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3542-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="55" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="126" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/PaceIQApp" offset="173" parentId="globals" symbolId="PaceIQApp" type="class"/>
+        <dataEntry label="globals/PaceIQView" offset="244" parentId="globals" symbolId="PaceIQView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="299" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="338" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435486">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="PaceIQApp" startPc="268435510">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="PaceIQView" startPc="268435529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435550" name="onStart" parent="PaceIQApp" startPc="268435548">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435593" name="getInitialView" parent="PaceIQApp" startPc="268435551">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435614" name="initialize" parent="PaceIQApp" startPc="268435594">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435617" name="onStop" parent="PaceIQApp" startPc="268435615">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436297" name="compute" parent="PaceIQView" startPc="268435618">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436331" name="initialize" parent="PaceIQView" startPc="268436298">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

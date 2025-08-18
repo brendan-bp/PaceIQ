@@ -53,13 +53,12 @@ class PaceIQView extends WatchUi.SimpleDataField {
         // training in potentially dangerous conditions
         var adjustedPace;
         if ((wetBulbTemperature > 5) && (wetBulbTemperature <= 25)) {
-            adjustedPace = ((((wetBulbTemperature - 5)/20)* // Calculate the scaling of the cubic based on Wet Bulb Temperature
+            adjustedPace = pace/ // Divide pace by conversion factor
+            ((((wetBulbTemperature - 5)/20)* // Calculate the scaling of the cubic based on Wet Bulb Temperature
 
             (2.0219*Math.pow(pace,3)-17.947*Math.pow(pace, 2)+56.825*pace-60.908) // Calculate the cubic based on the athlete's pace
 
-            +100)/100) // Convert from percentage increase to conversion factor
-
-            *pace; // Multiply pace by conversion factor
+            +100)/100); // Convert from percentage increase to conversion factor
         }
         else {
             adjustedPace = pace;
